@@ -1,0 +1,149 @@
+body{
+    background-color: rgb(182, 182, 182);
+}
+body img{
+    width: 100%;
+    height: 100%;
+
+}
+.wapper{
+    background-color: rgb(167, 167, 167);
+    width: 600px;
+    height: 700px;
+    margin: 50px auto;
+}
+.header{
+    display: flex; align-items: center;
+    margin-left: 5px;
+}
+.header img{
+    width: 50px;
+    height: 50px;
+}
+.instagram{
+    background-color: white;
+    width: 450px;
+    height: 800px;
+    margin: 10px auto 62px;
+    border-radius: 10px;
+}
+.iconos{
+    display: flex;
+    margin-top: 8px;
+}
+.iconos-izq{
+margin-left: 5px;
+padding: 5px;
+}
+.iconos-der{
+margin-right: 10px;
+}
+
+p {
+    padding: 5px;
+}
+span{
+    padding: 5px;
+}
+.fa-solid, .fas, .fa-regular {
+    font-weight: 900;
+    margin-right: 5px;
+  }
+
+  .instagram-header {
+	padding: 15px;
+}
+
+.perfil-img {
+	display: inline-block;
+	height: 45px;
+	width: 45px;
+	border-radius: 50%;
+	position: relative;
+	top: 5px;
+	margin-right: 5px;
+}
+
+
+.perfil-info {
+	display: inline-block;
+}
+
+.nombre {
+	font-size: 14px;
+	color: #111;
+	font-weight: 700;
+}
+
+.ubicacion {
+	font-size: 12px;
+	color: #111;
+}
+
+.menu {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 12px;
+	float: right;
+	display: inline-block;
+	position: relative;
+	top: 10px;
+	right: 5px;
+	color: grey;
+	font-weight: 700;
+}
+.agregar-comentario {
+	display: inline-block;
+	width: 60%;
+}
+
+input {
+	border-radius: 6px;
+width: 120%;
+border: 2px solid;
+  border-top-color: currentcolor;
+  border-right-color: currentcolor;
+  border-bottom-color: currentcolor;
+  border-left-color: currentcolor;
+border-color: #e8e8e8;
+height: 40px;
+margin-top: 20px;
+}
+.menu-footer {
+    width: 100%;
+    bottom:0px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    left:0px;
+    background: transparent;
+    position: fixed;
+    border-top: 1px solid rgb(187, 183, 170);
+  }
+  .menu-footer ul {
+    padding: 0;
+    margin: 0;
+  }
+  .menu-footer ul li {
+    display: inline-block;
+    width: 20%;
+    margin-left: -5px;
+  }
+  .menu-footer ul li a {
+    font-size: 25px;
+    color:#000;
+    position: relative;
+    display: block;
+    padding: 10px 70px;
+    text-align: center;
+    background: #d6d6d6;
+    
+  
+    transition: 300ms;
+  }
+  .menu-footer ul li a:hover {
+    color: rgb(194, 166, 73);
+  }
+  @media (max-width: 930px) {
+    .menu-footer ul li a {
+      padding: 10px 10px;
+    }
+  }
